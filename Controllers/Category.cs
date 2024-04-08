@@ -5,7 +5,7 @@ using server.Data;
 namespace server.Controllers
 {
     [ApiController]
-    [Route("api/category")]
+    [Route("category")]
     public class Category : ControllerBase
     {
         private readonly StoreContext _context;
