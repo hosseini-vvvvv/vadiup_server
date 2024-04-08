@@ -9,7 +9,7 @@ using server.Data;
 namespace server.Controllers
 {
     [ApiController]
-    [Route("api/setting")]
+    [Route("setting")]
     public class Setting : ControllerBase
     {
         private readonly StoreContext _context;
